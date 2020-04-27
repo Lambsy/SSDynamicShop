@@ -13,6 +13,7 @@ public class JoinQuit implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e)
     {
+        /*
         Player player = e.getPlayer();
         DynamicShop.ccUser.get().set(player.getUniqueId().toString()+".tmpString","");
         DynamicShop.ccUser.get().set(player.getUniqueId().toString()+".interactItem","");
@@ -29,5 +30,6 @@ public class JoinQuit implements Listener {
                 e.getPlayer().sendMessage(UpdateCheck.getResourceUrl());
             }
         }
+        */
     }
 }
